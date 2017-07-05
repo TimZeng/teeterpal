@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="queries.css">
 
   <title>TeeterPal Template-Home</title>
 
@@ -16,8 +17,7 @@
     <img src="content/logo.png" alt="logo" class="logo">
 
     <ul class="main-nav">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT US</a></li>
+      <li><a href="#">CONTACT US</a></li>
       <li><a href="#">BLOG</a></li>
       <li><a href="#">SIGN UP</a></li>
     </ul>
@@ -25,7 +25,7 @@
 
   </nav>
 
-  <div class="container">
+  <div class="container section-search">
     <h1 class="page-title">TeeterPal</h1>
     <h1 class="page-subtitle">Meet new friends and</h1>
     <h1 class="page-subtitle">Grow together</h1>
@@ -195,6 +195,95 @@
           <span class="discount-price">$63.00</span>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="section-about">
+    <div class="container">
+      <h2 class="about-title">
+        About Us
+      </h2>
+      <p class="about-content">We are one of the largest parent-and-kid community group headquartered in San Francisco Bay Area. We serve families, both parents and kids with family friendly events and activities, specialty clubs, as well as kids related enrichment programs and camps in different city locations. </p>
+
+      <div class="section-cities">
+        <div class="cities-showcase">
+          <div class="col-md-4">
+            <span class="city-name">San Francisco</span>
+            <figure class="city-photo">
+              <img src="content/cities/san-francisco.jpg" alt="SF">
+            </figure>
+          </div>
+
+          <div class="col-md-4">
+            <span class="city-name">Los Angeles</span>
+            <figure class="city-photo">
+              <img src="content/cities/los-angeles.jpg" alt="LA">
+            </figure>
+          </div>
+
+          <div class="col-md-4">
+            <span class="city-name">Seattle</span>
+            <figure class="city-photo">
+              <img src="content/cities/seattle.jpg" alt="SEA">
+            </figure>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+<!--   <section class="section-cities">
+    <ul class="cities-showcase clearfix">
+      <li>
+        <span class="city-name">San Francisco</span>
+        <figure class="city-photo">
+          <img src="content/cities/san-francisco.jpg" alt="SF">
+        </figure>
+      </li>
+      <li>
+        <span class="city-name">Los Angeles</span>
+        <figure class="city-photo">
+          <img src="content/cities/los-angeles.jpg" alt="LA">
+        </figure>
+      </li>
+      <li>
+        <span class="city-name">Seattle</span>
+        <figure class="city-photo">
+          <img src="content/cities/seattle.jpg" alt="SEA">
+        </figure>
+      </li>
+    </ul>
+  </section> -->
+
+  <div class="container inner section-contact">
+    <h2 class="contact-title">Contact Us</h2>
+    <p class="contact-text">Like to be involved, become a volunteer, a partner, or just have a question or suggestion?  Feel free to contact us at TeeterPal@gmail.com</p>
+
+    <div class="contact-form">
+
+      <!-- <form id="contact-us" method="post" action="#"> -->
+
+        <div class="col-md-6">
+          <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+          <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+          <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+        </div>
+
+        <div class="col-md-6">
+          <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+        </div>
+
+        <div class="relative fullwidth col-xs-12">
+          <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
+        </div>
+
+        <div class="clear"></div>
+      <!-- </form> -->
+
     </div>
   </div>
 

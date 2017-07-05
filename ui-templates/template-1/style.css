@@ -6,6 +6,7 @@
   --theme: #75cdd8;
   --text-light: #818181;
   --text-dark: #484848;
+  --background-grey: #fafafa;
   --border: #e4e4e4;
   --green: #53a318;
   --red: #ff0000;
@@ -208,6 +209,190 @@ h1.page-subtitle {
   font-size: 150%;
   font-weight: 400;
   color: var(--green);
+}
+
+/* ----------------------------------------------------------- */
+/* About Us Section */
+/* ----------------------------------------------------------- */
+
+.section-about {
+  margin-top: 50px;
+  padding: 50px 0;
+  background-color: var(--background-grey);
+  color: var(--text-dark);
+}
+
+.about-title,
+.contact-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-content {
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+/* ----------------------------------------------------------- */
+/* Cities */
+/* ----------------------------------------------------------- */
+
+.section-cities {
+  margin-top: 50px;
+  padding: 0;
+}
+
+.cities-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.cities-showcase li {
+  display: block;
+  float: left;
+  width: 33.33%;
+}
+
+.city-name {
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  margin-top: 20%;
+
+  font-size: 120%;
+  font-weight: 700;
+}
+
+.city-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.city-photo img {
+  opacity: 0.6;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.city-photo img:hover {
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------- */
+/* Contact */
+/* ----------------------------------------------------------- */
+
+.section-contact {
+  margin-top: 50px;
+}
+
+#contact{
+  padding: 10px 0 10px;
+}
+
+.contact-text{
+  margin: 45px auto;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.mail-message-area{
+  width: 100%;
+  padding: 0 15px;
+}
+
+.mail-message {
+  width: 100%;
+  background: rgba(255,255,255, 0.8) !important;
+/*  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  transition: all 0.7s;*/
+  margin:0 auto;
+  border-radius: 5px;
+}
+
+/* Input Styles */
+
+.form{
+  width: 100%;
+  padding: 15px;
+  background: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  margin-bottom:25px;
+  color: var(--text-dark) !important;
+  font-size: 70%;
+
+/*  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;*/
+}
+
+.form:hover{
+  border:1px solid var(--theme);
+}
+
+.form:focus{
+  color: white;
+  outline: none;
+  border: 1px solid var(--theme);
+}
+
+.textarea{
+  height: 206px;
+  max-height: 206px;
+  max-width: 100%;
+}
+
+/* Send Button Styles */
+
+.form-btn{
+  width:180px;
+  display: block;
+  height: auto;
+  padding:15px;
+  color:#fff;
+  background: var(--theme);
+  border:none;
+  border-radius:3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin:auto;
+  box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.form-btn:hover{
+  background:#111;
+  color: white;
+  border:none;
+}
+
+.form-btn:active{
+  opacity: 0.9;
+}
+
+input {
+    position: relative;
+    z-index: 9999;
 }
 
 /* ----------------------------------------------------------- */
