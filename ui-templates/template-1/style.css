@@ -1,0 +1,221 @@
+:root {
+  --blue: #337ab7;
+  --light-blue: #3D8BCD;
+  --orange: #ff6e00;
+
+  --theme: #75cdd8;
+  --text-light: #818181;
+  --text-dark: #484848;
+  --border: #e4e4e4;
+  --green: #53a318;
+  --red: #ff0000;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-input-placeholder {
+  font-weight: lighter;
+}
+
+/* ----------------------------------------------------------- */
+/* Basic Setup */
+/* ----------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------------------------- */
+/* Nav */
+/* ----------------------------------------------------------- */
+
+nav {
+  height: 70px;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 70%;
+  font-weight: bold;
+  line-height: 70px;
+  vertical-align: center;
+}
+
+nav ul li a {
+  color: var(--text-light);
+}
+
+.logo {
+  height: 70px;
+}
+
+/* ----------------------------------------------------------- */
+/* Header */
+/* ----------------------------------------------------------- */
+
+.container {
+  width: 80%;
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+h1.page-title {
+  margin-top: 40px;
+  font-size: 240%;
+  font-weight: 700;
+  color: var(--theme);
+}
+
+h1.page-subtitle {
+  margin-left: 5px;
+  color: var(--text-dark);
+}
+
+/* ----------------------------------------------------------- */
+/* Search Bar */
+/* ----------------------------------------------------------- */
+.search-bar {
+  width: 100%;
+  height: 70px;
+  padding-top: 15px;
+
+  margin-top: 45px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+
+.form-group i {
+  position: absolute;
+  left: 25px;
+  top: 6px;
+  color: grey;
+  z-index: 3;
+}
+
+.search-bar button {
+  background-color: var(--theme);
+  color: #fff;
+  border: 0;
+  height: 40px;
+  width: 24%;
+}
+
+.search-bar input {
+  height: 40px;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+/* ----------------------------------------------------------- */
+/* Content */
+/* ----------------------------------------------------------- */
+
+.section-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.section-title {
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 110%;
+  font-weight: 700;
+  color: var(--text-dark);
+  padding-bottom: 10px;
+}
+
+.see-all {
+  display: inline-block;
+  float: right;
+  margin-top: 55px;
+  font-size: 75%;
+  color: var(--text-light);
+}
+
+.section-description {
+  font-size: 90%;
+  color: var(--text-dark);
+  font-style: italic;
+}
+
+
+/* ----------------------------------------------------------- */
+/* Activity Card */
+/* ----------------------------------------------------------- */
+
+.activity-card {
+  margin-top: 50px;
+  font-size: 75%;
+}
+
+.activity-card img {
+  width: 100%;
+  height: 250px;
+}
+
+.activity-card p {
+  margin: 0;
+}
+
+.activity-title {
+  color: var(--text-dark);
+  font-weight: 400;
+}
+
+.activity-detail {
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.activity-detail-text {
+  display: inline-block;
+  width: 60%;
+}
+
+.activity-detail-price {
+  display: inline-block;
+  width: 40%;
+  position: absolute;
+  float: right;
+  text-align: right;
+  bottom: 0px;
+  padding-right: 15px;
+}
+
+.original-price {
+  color: var(--red);
+  text-decoration: line-through;
+}
+
+.discount-price {
+  font-size: 150%;
+  font-weight: 400;
+  color: var(--green);
+}
+
+/* ----------------------------------------------------------- */
+/* Footer */
+/* ----------------------------------------------------------- */
+
+.footer {
+  margin-top: 100px;
+  height: 70px;
+  /*background-color: var(--theme);*/
+}
