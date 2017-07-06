@@ -27,34 +27,75 @@
 
   <div class="container">
     <h1 class="page-title">TeeterPal</h1>
-    <h1 class="page-subtitle">Meet new friends and</h1>
-    <h1 class="page-subtitle">Grow together</h1>
+    <h5 class="page-subtitle">Home <i class="ion-ios-arrow-right"></i> Activities</h5>
   </div>
 
-<!--   <div class="container">
-    <div class='search-bar'>
+  <div class="container section-search-panel">
+    <div class="search-panel">
+      <i class="ion-ios-location"></i>
+      <span class="search-panel-cat">&nbsp;&nbsp;LOCATION&nbsp;:&nbsp;&nbsp;</span>
+      <form>
+        <input type="radio" name="optradio">
+        <label class="radio-inline">Any Location</label>
 
-      <div class='col-md-9'>
-        <div class='form-group'>
-          <i class='ion-ios-search-strong'></i>
-          <input type='text' ng-model='city' class='form-control' placeholder='Search for city...' />
-        </div>
-      </div>
+        <input type="radio" name="optradio">
+        <label class="radio-inline">San Francisco</label>
 
-      <button class='btn'>
-        <i class='ion-ios-search-strong'></i>
-        Search
-      </button>
+        <input type="radio" name="optradio">
+        <label class="radio-inline">SF South Bay</label>
 
+        <input type="radio" name="optradio">
+        <label class="radio-inline">Los Angeles</label>
+
+      </form>
     </div>
-  </div> -->
 
-  <div class="container">
-    <div class="section-header">
-      <h3 class="section-title">Features</h3>
-      <span class="see-all">See all&nbsp;&nbsp;<i class="ion-ios-arrow-right"></i></span>
+    <div class="search-panel">
+      <i class="ion-ios-body"></i>
+      <span class="search-panel-cat">&nbsp;&nbsp;AGE&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <form>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">Any Age</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">2+</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">4+</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">6+</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">8+</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">10+</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">12+</label>
+      </form>
     </div>
-    <p class="section-description">We organize sport &amp; outdoor adventures, STEM workshops, performances, contests, and educational seminars.</p>
+
+    <div class="search-panel">
+      <i class="ion-ios-calendar"></i>
+      <span class="search-panel-cat">&nbsp;&nbsp;SCHEDULE&nbsp;:</span>
+      <form>
+        <input type="radio" name="optradio">
+        <label class="radio-inline">Any Time</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">In 1 Week</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">In 2 Weeks</label>
+
+        <input type="radio" name="optradio">
+        <label class="radio-inline">In 1 Month</label>
+      </form>
+    </div>
+
   </div>
 
   <div class="container">
@@ -121,17 +162,7 @@
         </div>
       </div>
     </div>
-  <!-- </div> -->
 
-<!--   <div class="container">
-    <div class="section-header">
-      <h3 class="section-title">Programs</h3>
-      <span class="see-all">See all&nbsp;&nbsp;<i class="ion-ios-arrow-right"></i></span>
-    </div>
-    <p class="section-description">We run Summer Camp, STEM classes, Sports Tournament, Reading Clubs and Chorus.</p>
-  </div> -->
-
-  <!-- <div class="container"> -->
     <div class="col-md-3 activity-card">
       <img src="content/programs/program-1.jpg">
       <p class="activity-title">TeeterPal Summer Camp<br/><br/></p>
@@ -198,95 +229,6 @@
     </div>
   </div>
 
-  <div class="section-about">
-    <div class="container">
-      <h2 class="about-title">
-        About Us
-      </h2>
-      <p class="about-content">We are one of the largest parent-and-kid community group headquartered in San Francisco Bay Area. We serve families, both parents and kids with family friendly events and activities, specialty clubs, as well as kids related enrichment programs and camps in different city locations. </p>
-
-      <div class="section-cities">
-        <div class="cities-showcase">
-          <div class="col-md-6">
-            <span class="city-name">San Francisco</span>
-            <figure class="city-photo">
-              <img src="content/cities/san-francisco.jpg" alt="SF">
-            </figure>
-          </div>
-
-          <div class="col-md-6">
-            <span class="city-name">Los Angeles</span>
-            <figure class="city-photo">
-              <img src="content/cities/los-angeles.jpg" alt="LA">
-            </figure>
-          </div>
-
-<!--           <div class="col-md-4">
-            <span class="city-name">Seattle</span>
-            <figure class="city-photo">
-              <img src="content/cities/seattle.jpg" alt="SEA">
-            </figure>
-          </div> -->
-
-
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-<!--   <section class="section-cities">
-    <ul class="cities-showcase clearfix">
-      <li>
-        <span class="city-name">San Francisco</span>
-        <figure class="city-photo">
-          <img src="content/cities/san-francisco.jpg" alt="SF">
-        </figure>
-      </li>
-      <li>
-        <span class="city-name">Los Angeles</span>
-        <figure class="city-photo">
-          <img src="content/cities/los-angeles.jpg" alt="LA">
-        </figure>
-      </li>
-      <li>
-        <span class="city-name">Seattle</span>
-        <figure class="city-photo">
-          <img src="content/cities/seattle.jpg" alt="SEA">
-        </figure>
-      </li>
-    </ul>
-  </section> -->
-
-  <div class="container inner section-contact">
-    <h2 class="contact-title">Contact Us</h2>
-    <p class="contact-text">Like to be involved, become a volunteer, a partner, or just have a question or suggestion?  Feel free to contact us at TeeterPal@gmail.com</p>
-
-    <div class="contact-form">
-
-      <!-- <form id="contact-us" method="post" action="#"> -->
-
-        <div class="col-md-6">
-          <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-          <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
-          <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-        </div>
-
-        <div class="col-md-6">
-          <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
-        </div>
-
-        <div class="relative fullwidth col-xs-12">
-          <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
-        </div>
-
-        <div class="clear"></div>
-      <!-- </form> -->
-
-    </div>
-  </div>
-
   <section class="section-footer">
     <span>@ 2016 TeeterPal</span>
     <span>
@@ -296,6 +238,7 @@
       <img src="content/twitter.png">
     </span>
   </section>
+
 
 </body>
 </html>

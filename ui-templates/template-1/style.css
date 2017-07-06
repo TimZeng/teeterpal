@@ -1,5 +1,13 @@
 :root {
   --theme: #75cdd8;
+  --theme-1: #daf7fb;
+  --theme-2: #a4e4ed;
+  --theme-3: #4eb0be;
+  --theme-4: #2d8f9c;
+
+  --theme-red: #f8849b;
+  --theme-yellow: #ffe188;
+
   --text-light: #818181;
   --text-dark: #484848;
   --background-grey: #fafafa;
@@ -39,6 +47,45 @@ body {
   width: 80%;
   max-width: 1032px;
   margin: 0 auto;
+}
+
+input[type='radio'],
+input[type='radio']:focus {
+  -webkit-appearance: none;
+  outline: none;
+}
+
+input[type='radio']:after {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  top: -14px;
+  left: -2px;
+  position: absolute;
+  background-color: var(--border);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  top: -14px;
+  left: -2px;
+  position: absolute;
+  background-color: var(--theme-4);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked + label {
+  font-weight: 400;
+  color: var(--text-dark);
 }
 
 /* ----------------------------------------------------------- */
@@ -349,13 +396,13 @@ h1.page-subtitle {
 }
 
 .form:hover{
-  border:1px solid var(--theme);
+  border:1px solid var(--theme-3);
 }
 
 .form:focus{
   color: white;
   outline: none;
-  border: 1px solid var(--theme);
+  border: 1px solid var(--theme-3);
 }
 
 .textarea {
@@ -386,7 +433,7 @@ h1.page-subtitle {
 }
 
 .form-btn:hover{
-  background:#111;
+  background: var(--theme-3);
   color: white;
   border:none;
 }
@@ -401,6 +448,60 @@ input {
 }
 
 /* ----------------------------------------------------------- */
+/* Activity Page */
+/* ----------------------------------------------------------- */
+
+h5.page-subtitle {
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.section-search-panel {
+  margin: 50px auto;
+  padding-top: 20px;
+  color: var(--text-light);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.search-panel {
+  margin-bottom: 20px;
+}
+
+.section-search-panel i {
+  display: inline-block;
+  width: 15px;
+  text-align: center;
+  color: var(--theme-red);
+}
+
+.section-search-panel form {
+  display: inline-block;
+  position: absolute;
+  margin-left: 80px;
+}
+
+span.search-panel-cat {
+  display: inline-block;
+  width: 125px;
+}
+
+.section-search-panel label {
+  margin: 0;
+  margin-right: 10px;
+}
+
+/*.section-search-panel label.active {
+  font-weight: 400;
+  color: var(--text-dark);
+  margin-right: 7px;
+}*/
+
+.radio-inline {
+  font-weight: 300;
+}
+
+/* ----------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------- */
 
@@ -411,7 +512,7 @@ input {
   padding-top: 20px;
   padding-left: 8%;
   padding-right: 8%;
-  background-color: var(--theme);
+  background-color: var(--theme-4);
   display: flex;
   justify-content: space-between;
   font-size: 65%;
