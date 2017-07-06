@@ -1,8 +1,4 @@
 :root {
-  --blue: #337ab7;
-  --light-blue: #3D8BCD;
-  --orange: #ff6e00;
-
   --theme: #75cdd8;
   --text-light: #818181;
   --text-dark: #484848;
@@ -13,11 +9,11 @@
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 ::-webkit-input-placeholder {
-  font-weight: lighter;
+  /*font-weight: lighter;*/
 }
 
 /* ----------------------------------------------------------- */
@@ -37,6 +33,12 @@ body {
   font-size: 20px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+}
+
+.container {
+  width: 80%;
+  max-width: 1032px;
+  margin: 0 auto;
 }
 
 /* ----------------------------------------------------------- */
@@ -70,12 +72,6 @@ nav ul li a {
 /* ----------------------------------------------------------- */
 /* Header */
 /* ----------------------------------------------------------- */
-
-.container {
-  width: 80%;
-  max-width: 1032px;
-  margin: 0 auto;
-}
 
 h1.page-title {
   margin-top: 40px;
@@ -301,18 +297,18 @@ h1.page-subtitle {
   margin-top: 50px;
 }
 
-#contact{
+#contact {
   padding: 10px 0 10px;
 }
 
-.contact-text{
+.contact-text {
   margin: 45px auto;
   width: 70%;
   margin-left: 15%;
   text-align: center;
 }
 
-.mail-message-area{
+.mail-message-area {
   width: 100%;
   padding: 0 15px;
 }
@@ -329,12 +325,12 @@ h1.page-subtitle {
 
 /* Input Styles */
 
-.form{
+.form {
   width: 100%;
   padding: 15px;
   background: #f8f8f8;
   border: 1px solid rgba(0, 0, 0, 0.075);
-  margin-bottom:25px;
+  margin-bottom: 25px;
   color: var(--text-dark) !important;
   font-size: 70%;
 
@@ -353,7 +349,7 @@ h1.page-subtitle {
   border: 1px solid var(--theme);
 }
 
-.textarea{
+.textarea {
   height: 206px;
   max-height: 206px;
   max-width: 100%;
@@ -361,7 +357,7 @@ h1.page-subtitle {
 
 /* Send Button Styles */
 
-.form-btn{
+.form-btn {
   width:180px;
   display: block;
   height: auto;

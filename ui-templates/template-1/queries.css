@@ -1,0 +1,28 @@
+@media only screen and (max-width: 990px) {
+
+  body { font-size: 36px; }
+  h3, h2 { font-size: 200%; }
+  .container { width: 95% }
+
+  nav { padding: 0 30px; }
+
+  .search-bar,
+  .section-description,
+  .contact-text { display: none; }
+
+  .activity-card { font-size: 120%; }
+  .activity-card img { height: 500px; }
+
+  .about-content,
+  .city-photo {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .city-photo { margin-bottom: 10px; }
+
+  .form { font-size: 120%; }
+  .form-btn { width: 100%; }
+
+}
+
