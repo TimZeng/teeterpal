@@ -142,7 +142,12 @@ h1.page-subtitle {
   float: right;
   margin-top: 55px;
   font-size: 75%;
-  color: var(--text-light);
+  /*color: var(--text-light);*/
+  color: var(--theme);
+}
+
+.see-all:hover {
+  cursor: pointer;
 }
 
 .section-description {
@@ -159,6 +164,10 @@ h1.page-subtitle {
 .activity-card {
   margin-top: 50px;
   font-size: 75%;
+}
+
+.activity-card:hover {
+  cursor: pointer;
 }
 
 .activity-card img {
@@ -255,11 +264,11 @@ h1.page-subtitle {
   color: #fff;
   position: absolute;
   display: inline-block;
-  width: 90%;
+  width: 94%;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 30%;
 
-  font-size: 120%;
+  font-size: 150%;
   font-weight: 700;
 }
 
