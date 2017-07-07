@@ -24,6 +24,8 @@
   .form { font-size: 120%; }
   .form-btn { width: 100%; }
 
+  .activity-detail-img { height: auto; }
+
   .book-panel { display: none; }
   .book-panel-mobile { display: block; }
 

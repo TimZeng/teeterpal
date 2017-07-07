@@ -675,7 +675,7 @@ span.search-panel-cat {
   flex-direction: column;
   justify-content: space-around;
 
-  /*display: none;*/
+  display: none;
 }
 
 .book-panel-mobile-overlay h4 {
