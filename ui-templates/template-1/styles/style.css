@@ -503,6 +503,7 @@ span.search-panel-cat {
 .activity-detail-img {
   width: 100%;
   height: 70vh;
+  min-height: 550px;
 }
 
 .activity-detail-content.container,
