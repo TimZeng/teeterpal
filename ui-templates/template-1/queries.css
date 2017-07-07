@@ -24,5 +24,8 @@
   .form { font-size: 120%; }
   .form-btn { width: 100%; }
 
+  .book-panel { display: none; }
+  .book-panel-mobile { display: block; }
+
 }
 

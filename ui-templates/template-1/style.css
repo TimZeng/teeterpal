@@ -593,16 +593,19 @@ span.search-panel-cat {
   border-bottom: 1px solid var(--border);
 }
 
-.book-panel input {
+.book-panel input,
+.book-panel-mobile input {
   border: 0;
 }
 
-.book-panel p.selector {
+.book-panel p.selector,
+.book-panel-mobile p.selector {
   display: flex;
   justify-content: space-between;
 }
 
-.book-panel i {
+.book-panel i,
+.book-panel-mobile i {
   color: var(--theme-red);
 }
 
@@ -610,7 +613,8 @@ span.search-panel-cat {
   cursor: pointer;
 }
 
-.book-panel .price {
+.book-panel .price,
+.book-panel-mobile .price {
   color: var(--green);
   font-size: 150%;
   font-weight: 400;
@@ -618,9 +622,9 @@ span.search-panel-cat {
   margin-left: 40px;
 }
 
-.book-panel .btn-book {
+.book-panel .btn-book,
+.book-panel-mobile .btn-book {
   background-color: var(--theme-red);
-  width: 100%;
   color: #fff;
 
   display: inline-block;
@@ -635,11 +639,64 @@ span.search-panel-cat {
   border-radius: 5px;
 }
 
+.book-panel .btn-book {
+  width: 100%;
+}
+
 .stuck {
   position:fixed;
   top:0;
   left: 63.8%;
   width: 27.65%;
+}
+
+.book-panel-mobile {
+  display: none;
+}
+
+.book-panel-mobile-overlay {
+  background-color: rgba(255,255,255,0.95);
+  position: fixed;
+  top: 5px;
+  left: 2.5%;
+  height: 95%;
+  width: 95%;
+  margin-bottom: 120px;
+  border: 3px solid var(--text-light);
+  border-radius: 15px;
+
+  padding: 50px;
+  font-size: 200%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /*display: none;*/
+}
+
+.book-panel-mobile-overlay h4 {
+  font-size: 100%;
+}
+
+.book-panel-mobile-overlay input {
+  width: 100%;
+}
+
+.book-panel-mobile-overlay .ion-close-circled {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: var(--theme-4);
+}
+
+.book-panel-mobile .btn-book {
+  position: fixed;
+  height: 120px;
+  font-size: 200%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 
