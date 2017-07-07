@@ -663,8 +663,8 @@ span.search-panel-cat {
 }
 
 .book-panel-mobile-overlay {
-  /*background-color: rgba(255,255,255,0.95);*/
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.95);
+  /*background-color: #fff;*/
   position: fixed;
   top: 5px;
   left: 2.5%;
@@ -681,7 +681,7 @@ span.search-panel-cat {
   flex-direction: column;
   justify-content: space-around;
 
-  display: none;
+  /*display: none;*/
 }
 
 .book-panel-mobile-overlay h4 {
@@ -716,20 +716,18 @@ span.search-panel-cat {
 .section-footer {
   margin-top: 100px;
   width: 100vw;
-  height: 60px;
-  padding-top: 20px;
-  padding-left: 8%;
-  padding-right: 8%;
+  height: auto;
+  padding: 20px 8%;
   background-color: var(--theme-4);
   display: flex;
   justify-content: space-between;
-  font-size: 65%;
+  font-size: 100%;
   color: #fff;
   font-weight: lighter;
 }
 
 .section-footer img {
-  height: 18px;
+  height: 40px;
   margin-left: 25px;
 }
 

@@ -6,12 +6,17 @@
 
   nav { padding: 0 30px; }
 
+  .see-all {
+    font-size: 100%;
+    margin-top: 50px;
+  }
+
   .search-bar,
   .section-description,
   .contact-text { display: none; }
 
-  .activity-card { font-size: 120%; }
-  .activity-card img { height: 500px; }
+  .activity-card { font-size: 100%; }
+  .activity-card img { height: auto; }
 
   .about-content,
   .city-photo {
@@ -28,6 +33,29 @@
 
   .book-panel { display: none; }
   .book-panel-mobile { display: block; }
+
+  .section-footer {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section-footer span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 400;
+  }
+
+  .section-footer span:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  .section-footer img {
+    height: 50px;
+  }
 
 }
 
