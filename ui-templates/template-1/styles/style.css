@@ -552,6 +552,10 @@ span.search-panel-cat {
   font-size: 90%;
 }
 
+.activity-detail-other .time {
+  font-weight: 400;
+}
+
 .activity-detail-icons {
   font-size: 200%;
   color: var(--text-light);
