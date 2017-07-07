@@ -491,15 +491,157 @@ span.search-panel-cat {
   margin-right: 10px;
 }
 
-/*.section-search-panel label.active {
-  font-weight: 400;
-  color: var(--text-dark);
-  margin-right: 7px;
-}*/
-
 .radio-inline {
   font-weight: 300;
 }
+
+/* ----------------------------------------------------------- */
+/* Activity Page */
+/* ----------------------------------------------------------- */
+
+.activity-detail-img {
+  width: 100%;
+}
+
+.activity-detail-content.container,
+.activity-detail-img.container {
+  width: 85%;
+  max-width: 2000px;
+}
+
+.activity-detail-img.container img {
+  width: 100%;
+}
+
+.content-panel h3 {
+  width: 100%;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+  color: var(--theme-4);
+}
+
+.content-panel h2 {
+  text-transform: uppercase;
+}
+
+.content-panel p {
+  font-size: 90%;
+}
+
+.content-panel img {
+  width: 100%;
+}
+
+.content-panel strong {
+  color: var(--theme-red);
+}
+
+.activity-detail-location p {
+  color: var(--text-light);
+  font-style: italic;
+  font-size: 90%;
+}
+
+.activity-detail-location p:hover {
+  cursor: pointer;
+}
+
+.activity-detail-other {
+  font-size: 90%;
+}
+
+.activity-detail-icons {
+  font-size: 200%;
+  color: var(--text-light);
+
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-detail-icons i {
+  transition: color 0.2s;
+
+}
+
+.activity-detail-icons i:hover {
+  cursor: pointer;
+}
+
+.ion-android-favorite:hover {
+  color: #d75a4a;
+}
+
+.ion-android-share-alt:hover {
+  color: #42c0fb;
+}
+
+.ion-chatbubble-working:hover {
+  color: #2dc100;
+}
+
+.book-panel {
+  padding: 10px 30px;
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #fff;
+}
+
+.book-panel div {
+  margin: 40px auto;
+  border-bottom: 1px solid var(--border);
+}
+
+.book-panel input {
+  border: 0;
+}
+
+.book-panel p.selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-panel i {
+  color: var(--theme-red);
+}
+
+.book-panel i:hover {
+  cursor: pointer;
+}
+
+.book-panel .price {
+  color: var(--green);
+  font-size: 150%;
+  font-weight: 400;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.book-panel .btn-book {
+  background-color: var(--theme-red);
+  width: 100%;
+  color: #fff;
+
+  display: inline-block;
+  margin-top: 0;
+  padding: 6px 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.stuck {
+  position:fixed;
+  top:0;
+  left: 63.8%;
+  width: 27.65%;
+}
+
 
 /* ----------------------------------------------------------- */
 /* Footer */
