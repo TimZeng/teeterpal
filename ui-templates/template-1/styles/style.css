@@ -501,6 +501,7 @@ span.search-panel-cat {
 
 .activity-detail-img {
   width: 100%;
+  height: 70vh;
 }
 
 .activity-detail-content.container,
@@ -511,6 +512,7 @@ span.search-panel-cat {
 
 .activity-detail-img.container img {
   width: 100%;
+  height: 100%;
 }
 
 .content-panel h3 {
@@ -655,7 +657,8 @@ span.search-panel-cat {
 }
 
 .book-panel-mobile-overlay {
-  background-color: rgba(255,255,255,0.95);
+  /*background-color: rgba(255,255,255,0.95);*/
+  background-color: #fff;
   position: fixed;
   top: 5px;
   left: 2.5%;
